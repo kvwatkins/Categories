@@ -165,6 +165,7 @@ Example type signatures and their interpretation
 
 \subsection{Monoids}
 
+%https://math.stackexchange.com/questions/1332690/monoid-as-a-single-object-category
 Monoids are a mathematical concept found across different branches of mathematics.
 
 %Set Theory
@@ -200,8 +201,10 @@ single object m is element of M
 hom-set is M(m,m)
 binary operator is the monoidal product of of two set-elements is the element corresponding to the composition of the corresponding morphisms.
 
+In the Hask (Set) we can define a subcategory definition for the Monoid using a typeclass.
 
-In the category of Set we can define a subcategory definition for a Monoid using a typeclass.
-
+class Monoid m where
+	mempty :: m
+	mappend :: m -> m -> m
 
 \end{document}
