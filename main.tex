@@ -167,4 +167,41 @@ Example type signatures and their interpretation
 
 Monoids are a mathematical concept found across different branches of mathematics.
 
+%Set Theory
+In set theory a monoid is a set equiped with a binary function that is associative and a unit element. An example is addition on the set of integers is equiped with the pesudo function (+) :: a -> a -> a.
+
+Monoid M = a set with a unit e and binary operator
+
+a,b,c elements of M
+a . b element M
+(a . b) . c = a . (b . c)
+e . a = a . e = a
+
+%Category Theory 
+In category theory a monoid is a one object category with a set of morphisms that follow the rules of composition.
+
+An example. Given a single object category C, morphism in this Category can only originate from and to the object.
+
+C = object is c 
+C = morphism c -> c 
+
+identity = 1c : c -> c
+f . g Elements of Morph(C)
+(f . g) . h = f . (g . h)
+1c . f = f . 1c = f
+composition = f g c
+
+This definition is to the above set definition are informally equiveleant the important factor is we're no longer talking about functions but morphism.
+
+We can always extract a set from a single object category. The set extraced is the set of morphism.
+
+Category M single object category
+single object m is element of M
+hom-set is M(m,m)
+binary operator is the monoidal product of of two set-elements is the element corresponding to the composition of the corresponding morphisms.
+
+
+In the category of Set we can define a subcategory definition for a Monoid using a typeclass.
+
+
 \end{document}
