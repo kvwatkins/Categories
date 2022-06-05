@@ -1,0 +1,18 @@
+\subsection{Defining a Category}
+
+A Category consist of two things \ldots
+
+\begin{itemize}
+  \item Objects
+  \item Arrows known as morphisms
+\end{itemize}
+
+Category Theory serves as an interpretation for the foundation of mathematics much like Set Theory and Type Theory. The key focus is on the the composition of mathematical structures. These structures are called objects. Again the focus is on the composition of the objects which is captured with the notion of an arrow (formally a morphism) that points to objects.
+
+A Category $C$ is made up of objects and arrows called morphism for which the follow properties hold true.
+
+\begin{itemize}
+  \item \textbf{Identity} - Objects must have a an arrow originating from itself to itself as the Identity morphism. This arrow serves as a unit of composition such that when composed with any Arrow that either starts at $A$ or ends at $A$ it gives back the same arrow. So if $f$ is an arrow then $f \circ id_A = f$
+  \item \textbf{Composition} - Given the objects $A, B, C$ and two arrows $f = A \rightarrow B$ and $g = B \rightarrow C$, there must exist a third arrow from A to C represented as $g \circ f = A \rightarrow C$ .
+  \item \textbf{Associative} - Given 3 arrows $f, g, h$, composition must be associative the they must be associative $h \circ (g \circ f) = (h \circ g) \circ f = h \circ g \circ f$
+\end{itemize}

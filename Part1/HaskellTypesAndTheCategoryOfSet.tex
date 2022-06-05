@@ -1,0 +1,43 @@
+\subsection{Haskell Types and the Category of Set}
+
+A type can be thought of as a set of values. As an example the Haskell type Bool is a two element set of value True and False.
+Sets can be finite or infinite.
+In Haskell x :: Integer is saying x is an element of Integer.
+The category of sets is called Set. Its special because we can peak in at its objects.
+
+In the category of set \textbf{objects are sets} and \textbf{morphisms are functions between sets}
+
+\begingroup
+
+%Define ZFC Axioms here
+\begin{itemize}
+    \item empty set has no elements
+    \item there are special one element sets
+    \item functions map elements of one set to elements of another set
+    \item functions can map two elements to one but not one element to two
+    \item there exist an identity function that maps each element of a set to itself
+\end{itemize}
+
+In the Haskell implementation the category of Haskell types and functions is referred to as Hask. By forgetting the bottom in non terminating functions we can treat Hask is the Category Set
+
+Functions with multiple type arguments have two interpretations as well. $a \rightarrow a \rightarrow a$ can be interpreted as a function that takes multiple arguments and the last value is the return type or it can be interpreted as $a \rightarrow (a \rightarrow a)$ function that takes an argument and returns a function requiring another argument.
+
+\begin{figure}[ht]
+\caption{Translation of Category of Set to Haskell \ldots}
+    \begin{tabularx}{0.9\textwidth} {
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X |}
+        \hline
+        Set             & Haskell Type & Description                                                \\
+        \hline
+        Empty Set       & Void         & Type not inhibited by any values                           \\
+        \hline
+        Singleton Set   & () ``Unit''  & Type has one value that always exist                       \\
+        \hline
+        Two Element Set & Bool         & true or false, functions to this type are called predicates \\
+        \hline
+    \end{tabularx}
+\end{figure}
+
+\endgroup

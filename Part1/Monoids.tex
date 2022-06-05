@@ -1,0 +1,38 @@
+\subsection{Monoids}
+
+%https://math.stackexchange.com/questions/1332690/monoid-as-a-single-object-category
+Monoids are a mathematical concept found across different branches of mathematics.
+
+%Set Theory
+In set theory a monoid is a set equipped with a binary function that is associative and a unit element. An example is addition on the set of integers is equipped with the pseudo function $(+) :: a \rightarrow a \rightarrow a$.
+
+Monoid $M$ is a set with a unit element $e$ and binary operation. Such that if $a,b,c \in M$ then \ldots
+
+\begin{figure}[ht]
+$$a \circ b \in M $$
+$$(a \circ b) \circ c = a \circ (b \circ c)$$
+$$e \circ a = a \circ e = a$$
+\end{figure}
+
+%Category Theory 
+In category theory a monoid is a one object category with a set of morphisms that follow the rules of composition.
+
+Given a single object category $C$. $C$'s object is $c$, $C$'s morphism $c \rightarrow c$. $C$'s unit is $1_c : c -> c$
+
+\begin{figure}[ht]
+$$f \circ g \in Morph(C)$$
+$$(f \circ g) \circ h = f \circ (g \circ h) $$
+$$1_c \circ f = f \circ 1_c = f$$
+\end{figure}
+
+
+Operations on $M$ are exactly the same as operations on $Morph(C)$ allowing us to regard the category $C$ as the monoid $M$. The correspondence is reversible given the category of $C = {c}$ we obtain a monoid $M$ whose elements are arrows of $C$ This allows us to extract a set from a single object category. 
+
+because $c \in C$ and the hom-set of $c$ is $Hom_C(c,c)$ resulting in a Set monoid M whose elements are morphisms of $C$
+
+In the Hask we can define a subcategory definition for the Monoid using a typeclass.
+\begin{verbatim}
+class Monoid m where
+mempty  :: m
+mappend :: m -> m -> m
+\end{verbatim}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/NixOS.org) (preloaded format=pdflatex 2022.2.10)  5 JUN 2022 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/NixOS.org) (preloaded format=pdflatex 2022.2.10)  5 JUN 2022 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -11,8 +11,8 @@ L3 programming layer <2021-02-18>
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 
 (/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
-8/share/texmf/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+8/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
 \c@section=\count180
@@ -27,12 +27,6 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \bibindent=\dimen138
 )
 (/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
-8/share/texmf/tex/latex/base/inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-)
-(/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
 8/share/texmf/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
@@ -42,7 +36,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen139
 \ar@mcellbox=\box47
 \extrarowheight=\dimen140
-\NC@list=\toks17
+\NC@list=\toks15
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box48
@@ -53,7 +47,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@target=\dimen144
 \TX@delta=\dimen145
 \TX@cols=\count187
-\TX@ftn=\toks18
+\TX@ftn=\toks16
 )
 (/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
 8/share/texmf/tex/latex/microtype/microtype.sty
@@ -62,9 +56,9 @@ Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 (/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
 8/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks17
 )
-\MT@toks=\toks20
+\MT@toks=\toks18
 \MT@count=\count188
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen146
@@ -86,35 +80,63 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
 ))
 (/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
+8/share/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count190
+\lst@gtempboxa=\box49
+\lst@token=\toks19
+\lst@length=\count191
+\lst@currlwidth=\dimen147
+\lst@column=\count192
+\lst@pos=\count193
+\lst@lostspace=\dimen148
+\lst@width=\dimen149
+\lst@newlines=\count194
+\lst@lineno=\count195
+\lst@maxwidth=\dimen150
+
+(/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
+8/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count196
+\lst@skipnumbers=\count197
+\lst@framebox=\box50
+)
+(/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
+8/share/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (./functions/CategoryTheory.tex)
+(/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
 8/share/texmf/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count190
-\l__pdf_internal_box=\box49
+\l__color_backend_stack_int=\count198
+\l__pdf_internal_box=\box51
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Info: Redefining \microtypecontext on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \microtypecontext on input line 18.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 10.
+LaTeX Info: Redefining \showhyphens on input line 18.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -124,44 +146,68 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
+\c@lstlisting=\count199
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 12.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+ (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
  [1
 
 {/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021040
-8/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 99--100
-[][] 
- []
-
-[3]
-Overfull \vbox (8.74983pt too high) has occurred while \output is active []
-
-
-[4] [5] [6] (./main.aux) ) 
+8/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Introduction/Introduc
+tion.tex)
+(./Part1/Part1.tex [2] (./Part1/DefiningACategory.tex)
+(./Part1/HaskellTypesAndTheCategoryOfSet.tex [3])
+(./Part1/ExamplesOfCategories.tex) [4] [5]
+(./Part1/SubCategoriesAndHaskellTypeclasses.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (./Part1/Monoids.tex [6]))
+[7] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2245 strings out of 478994
- 39576 string characters out of 5829509
- 369886 words of memory out of 5000000
- 19676 multiletter control sequences out of 15000+600000
- 411038 words of font info for 92 fonts, out of 8000000 for 9000
+ 3641 strings out of 478994
+ 59864 string characters out of 5829509
+ 388432 words of memory out of 5000000
+ 21018 multiletter control sequences out of 15000+600000
+ 410998 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,8n,60p,621b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-
-combined-full-2021.20210408/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.e
-nc}</nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.2021
-0408/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/wgzkhxc1
-9ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.20210408/share/texmf/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb
--texlive-combined-full-2021.20210408/share/texmf/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2
-021.20210408/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (6 pages, 62257 bytes).
+ 52i,10n,60p,967b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined
+-full-2021.20210408/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</nix
+/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.20210408/sha
+re/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></nix/store/wgzkhxc19ycsvcd3
+bqk44vyyvyfy59nb-texlive-combined-full-2021.20210408/share/texmf/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texliv
+e-combined-full-2021.20210408/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.20
+210408/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></nix/store/wgzkhxc
+19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.20210408/share/texmf/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59n
+b-texlive-combined-full-2021.20210408/share/texmf/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-
+2021.20210408/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/
+wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combined-full-2021.20210408/share/texm
+f/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vy
+yvyfy59nb-texlive-combined-full-2021.20210408/share/texmf/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb></nix/store/wgzkhxc19ycsvcd3bqk44vyyvyfy59nb-texlive-combi
+ned-full-2021.20210408/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (7 pages, 129389 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 22529 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 25089 words of extra memory for PDF output out of 29859 (max. 10000000)
 

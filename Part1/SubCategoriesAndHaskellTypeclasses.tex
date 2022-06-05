@@ -1,0 +1,21 @@
+\subsection {Subcategories and Haskell Typeclasses}
+
+%Haskell https://dorchard.wordpress.com/2011/10/18/subcategories-in-haskell-exofunctors/
+
+In the category of $C$ a subcategory of $C$ is a sub-collection of the objects of $C$ and a sub-collection of the morphism of $C$ which map only between objects in the sub-collection of the subcategory
+
+Subcategories can be represented as typeclasses in Haskell and have two interpretations depending on the amount of type parameters
+
+\begin{itemize}
+  \item A single parameter typeclass can be interpreted as describing the members of a set of types
+  \item Multi-parameter typeclasses is interpreted as a relation on types
+\end{itemize}
+
+Type class can be used to defined a collection of types that are members of a particular class. A type signature with a universally quantified type variable constrained by the typeclass 
+
+Example type signatures and their interpretation
+
+\begin{itemize}
+  \item \begin{verbatim}Eq a => a \end{verbatim} the collections of types that are members of the class Eq. Members of Eq are a sub-collection of objects in the Category of Hask
+  \item \begin{verbatim} Eq a, Eq b => (a -> b) \end{verbatim} is a sub-collection of the morphisms in Hask mapping between objects in the sub-collection of objects defined in Eq
+\end{itemize}

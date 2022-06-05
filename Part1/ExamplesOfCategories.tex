@@ -1,0 +1,39 @@
+\subsection{Examples of Categories}
+
+% expand order section with symmetry table and then define order
+Free Construction is the process of completing a given structure by extending it with the minimum number of items to satisfy its laws. Graphs are the free constructor for the Free category. chains of length zero serve as the identity morphism in the free category.
+
+Thin categories are those where Hom-set is the set of morphisms from object a to object b in the category of C written as C(a,b) or HomC(a,b)
+
+A hom-set is the set of morphisms from object $a$ to object $b$ in the category of $C$ written as $C(a,b)$ or $Hom_C(a,b)$
+Every hom-set is either empty, a singleton, or a preorder.
+Preorders can have cycles where as partial orders cannot
+
+% move this to the Orders section when created
+Sorting algorithms like quick-sort, bubble sort, merge sort, only work on total orders. Partial orders use topological sorts
+there is at most one morphism going from any object to any other object.
+
+\begin{figure}[htp]
+    \caption{Examples of Categories \ldots}
+    \begin{tabularx}{0.9\textwidth} {
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X
+            | >{\centering\arraybackslash}X |}
+        \hline
+        Category                 & Objects                      & Morphisms                                                                                                                                                                                                & Description                                      \\
+        \hline
+        Empty                    & None                         & None                                                                                                                                                                                                     & A category without objects or morphisms          \\
+        \hline
+        Set                      & Sets                         & Functions                                                                                                                                                                                                & A category in which we can peek into the objects \\
+        \hline
+        Graph (Free Category)    & Nodes that represent objects & all possible chains of composable edges                                                                                                                                                                  & A category for Free construction                 \\
+        \hline
+        Preorder (Thin Category) & general non specific objects & relationship between objects where objects $\leq$                                                                                                                                        & only one morphism between two objects            \\
+        \hline
+        Partial Order            & general non specific objects & relationship between objects where objects are $\leq$ and that if $a \leq b$ and $b \leq a$ then a must be the same as $b$                                                                   & only one morphism between two objects            \\
+        \hline
+        Linear/Total Order       & general non specific objects & relationship between objects where objects are $\leq$ and that if $a \leq b$ and $b \leq a$ then a must be the same as $b$. Finally it states any two objects are in relation to one another & only one morphism between two objects            \\
+        \hline
+    \end{tabularx}
+\end{figure}
