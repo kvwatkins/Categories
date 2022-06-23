@@ -1,6 +1,10 @@
-\contentsline {section}{\numberline {1}Part 1}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Defining a Category}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Haskell Types and the Category of Set}{2}{}%
-\contentsline {subsection}{\numberline {1.3}Examples of Categories}{3}{}%
-\contentsline {subsection}{\numberline {1.4}Subcategories and Haskell Typeclasses}{5}{}%
-\contentsline {subsection}{\numberline {1.5}Monoids}{5}{}%
+\contentsline {section}{\numberline {1}Encoding Logic}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Abstraction and Encoding}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Examples of Encodings}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Functions as Logical Encodings}{2}{}%
+\contentsline {section}{\numberline {2}Categories}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Defining a Category}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Haskell Types and the Category of Set}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Examples of Categories}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Subcategories and Haskell Typeclasses}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Monoids}{6}{}%

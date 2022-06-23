@@ -659,3 +659,61 @@ Ctrl-C to stop.
 
 [36m[2022-06-17 15:28:18][00m [32m172.18.0.1:44556[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
 [36m[2022-06-17 15:28:18][00m Created temp dir [35m$TEMP/http-home-runner-Categories/encoded[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 04:37:44][00m [32m172.18.0.1:56292[00m was served file [35m/home/runner/Categories/index.html[00m as [34mtext/html[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 04:37:44][00m                            found index file for directory [35m/home/runner/Categories[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 04:37:44][00m [32m172.18.0.1:56292[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 04:37:44][00m Created temp dir [35m$TEMP/http-home-runner-Categories/encoded[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 04:38:15][00m [32m172.18.0.1:56310[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 05:01:49][00m [32m172.18.0.1:37178[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 05:05:12][00m [32m172.18.0.1:36740[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 05:05:12][00m Created temp dir [35m$TEMP/http-home-runner-Categories/encoded[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 05:05:57][00m [32m172.18.0.1:36752[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 05:24:13][00m [32m172.18.0.1:36852[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 05:26:41][00m [32m172.18.0.1:36872[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 05:27:31][00m [32m172.18.0.1:36874[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:22:32][00m [32m172.18.0.1:58434[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[36m[2022-06-23 06:22:32][00m Created temp dir [35m$TEMP/http-home-runner-Categories/encoded[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:29:22][00m [32m172.18.0.1:58474[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:31:57][00m [32m172.18.0.1:58492[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:33:09][00m [32m172.18.0.1:58496[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:34:23][00m [32m172.18.0.1:58508[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
+[00mHosting "." on port 8000 without TLS and no authentication...
+Ctrl-C to stop.
+
+[36m[2022-06-23 06:36:03][00m [32m172.18.0.1:58518[00m was served file [35m/home/runner/Categories/main.pdf[00m as [34mapplication/pdf[00m[30m[31m[32m[33m[34m[35m[36m[37m[00m
